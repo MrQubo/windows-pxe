@@ -1,0 +1,9 @@
+UI         menu.c32
+MENU TITLE Network Boot
+TIMEOUT    50
+
+LABEL      WindowsPE
+MENU LABEL Boot Windows PE from network
+KERNEL     /memdisk
+INITRD     winpe.iso
+APPEND     iso raw

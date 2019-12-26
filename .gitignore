@@ -1,0 +1,6 @@
+/winiso/
+/tftp-root/*
+!/tftp-root/pxelinux.cfg/
+/samba.conf
+/boot.wim*
+/mnt
